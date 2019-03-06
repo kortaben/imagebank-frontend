@@ -1,0 +1,21 @@
+// Styling for the search bar
+.header-spacer {
+  padding-top: calc(5rem + 72px);
+}
+
+.search-box {
+  background: $white;
+}
+
+.search-box input{
+  padding: 25px;
+  border: 0;
+  width: 100%;
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase
+}
+
+.search-box ::-webkit-input-placeholder {
+  color: #9c9c9c;
+}

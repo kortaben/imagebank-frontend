@@ -1,0 +1,15 @@
+// Styling for the images
+.grid-sizer,
+.grid-item { 
+  width: calc((100% - 30px)/4);
+  margin-bottom: 10px;
+}
+.grid-item img{
+  width: 100%;
+  height: auto;
+}
+
+.grid-item img:hover {
+  opacity: 0.9;
+  cursor: pointer
+}
